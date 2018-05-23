@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Rocket : MonoBehaviour {
+
+public class Rocket : MonoBehaviour
+{
 
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 100f;
@@ -11,39 +11,62 @@ public class Rocket : MonoBehaviour {
     Rigidbody rigidBody;
     AudioSource audioSource;
 
-	// Use this for initialization
-	void Start () {
+    enum State { Alive, Dying, Transcending };
+    State state = State.Alive;
+
+    // Use this for initialization
+    void Start()
+    {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         ProcessInput();
-		
-	}
+    }
 
     private void ProcessInput()
     {
-        Thrust();
-        Rotate();
+        //todo stop sound somwhere here
+        if (state == State.Alive)
+        {
+            Thrust();
+            Rotate();
+        }
     }
 
     void OnCollisionEnter(Collision collision)
     {
+        if (state != State.Alive) { return; }//ignore collisions while not alive
+
         switch (collision.gameObject.tag)
         {
             case "Friendly":
                 //do nothing
                 break;
 
-            case "Fuel":
+            case "Finish":
+                state = State.Transcending;
+                Invoke("LoadNextLevel", 1f); //parameterise time
                 break;
 
             default:
-                print("Dead!");
+                state = State.Dying;
+                Invoke("LoadFirstLevel", 1f);
                 break;
         }
+    }
+
+    private void LoadFirstLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    private void LoadNextLevel()
+    {
+        SceneManager.LoadScene(1); //todo allow for more than 2 levels
     }
 
     private void Thrust()
