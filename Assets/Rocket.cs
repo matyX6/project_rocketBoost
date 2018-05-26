@@ -23,6 +23,8 @@ public class Rocket : MonoBehaviour
     enum State { Alive, Dying, Transcending };
     State state = State.Alive;
 
+    bool ignoreCollision = false;
+
     // Use this for initialization
     void Start()
     {
@@ -43,11 +45,27 @@ public class Rocket : MonoBehaviour
             RespondToThrustInput();
             RespondToRotateInput();
         }
+        if (Debug.isDebugBuild)
+        {
+            RespondToDebugKeys();
+        }
+    }
+
+    private void RespondToDebugKeys()
+    {
+        if (Input.GetKey(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        else if (Input.GetKey(KeyCode.C))
+        {
+            ignoreCollision = !ignoreCollision; //toggle
+        }
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (state != State.Alive) { return; }//ignore collisions while not alive
+        if (state != State.Alive || ignoreCollision) { return; }//ignore collisions while not alive or while variable is toggled
 
         switch (collision.gameObject.tag)
         {
@@ -77,6 +95,7 @@ public class Rocket : MonoBehaviour
     {
         state = State.Dying;
         audioSource.Stop();
+        mainEngineParticles.Stop();
         audioSource.PlayOneShot(death);
         deathParticles.Play();
         Invoke("LoadFirstLevel", levelLoadDelay);
@@ -107,7 +126,7 @@ public class Rocket : MonoBehaviour
 
     private void ApplyThrust()
     {
-        rigidBody.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
+        rigidBody.AddRelativeForce(Vector3.up * mainThrust /** Time.deltaTime*/);
         if (!audioSource.isPlaying) //so it doesn't layer
         {
             audioSource.PlayOneShot(mainEngine);
