@@ -9,7 +9,7 @@ public class Oscillator : MonoBehaviour {
     [SerializeField] float period = 2f;
 
     //todo remove from inspector later
-    //[Range(0,1)] [SerializeField ]
+    //[Range(0,1)] [SerializeField]
     float movementFactor; //0 for not moved, 1 for fully moved
 
     Vector3 startingPos;
