@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
@@ -75,9 +76,25 @@ public class Rocket : MonoBehaviour
                 StartSuccessSequence();
                 break;
 
+            case "Orb":
+                Invoke("CheckIfOrbExists", 0.2f); //checks if orb exists in scene, if not you can advance
+                break;
+
             default:
                 StartDeathSequence();
                 break;
+        }
+    }
+
+    private void CheckIfOrbExists()
+    {
+        if (GameObject.FindWithTag("Orb"))
+        {
+            print("orbfound");
+        }
+        else
+        {
+            print("advance level activated");
         }
     }
 
