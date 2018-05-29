@@ -21,6 +21,7 @@ public class Rocket : MonoBehaviour
 
     bool isTransitioning = false;
     bool ignoreCollision = false;
+    bool allowAdvancingLevel = false;
 
     public Light wayLight;
 
@@ -99,7 +100,7 @@ public class Rocket : MonoBehaviour
         }
         else
         {
-            //todo unlock advancing in the next scene
+            allowAdvancingLevel = true; //if there is no orbs left, allow advancing level
             wayLight.intensity = 10;
             print("advance level activated");
         }
@@ -107,11 +108,14 @@ public class Rocket : MonoBehaviour
 
     private void StartSuccessSequence()
     {
-        isTransitioning = true;
-        audioSource.Stop();
-        audioSource.PlayOneShot(success);
-        successParticles.Play();
-        Invoke("LoadNextLevel", levelLoadDelay);
+        if (allowAdvancingLevel)
+        {
+            isTransitioning = true;
+            audioSource.Stop();
+            audioSource.PlayOneShot(success);
+            successParticles.Play();
+            Invoke("LoadNextLevel", levelLoadDelay);
+        }
     }
 
     private void StartDeathSequence()
