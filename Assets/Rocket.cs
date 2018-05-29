@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-
 public class Rocket : MonoBehaviour
 {
 
@@ -24,11 +22,16 @@ public class Rocket : MonoBehaviour
     bool isTransitioning = false;
     bool ignoreCollision = false;
 
+    public Light wayLight;
+
     // Use this for initialization
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+        wayLight = GameObject.Find("WayLight").GetComponent<Light>();
+
+        CheckIfOrbExists();
     }
 
     // Update is called once per frame
@@ -77,7 +80,7 @@ public class Rocket : MonoBehaviour
                 break;
 
             case "Orb":
-                Invoke("CheckIfOrbExists", 0.2f); //checks if orb exists in scene, if not you can advance
+                Invoke("CheckIfOrbExists", 0.1f); //checks if orb exists in scene, if not you can advance
                 break;
 
             default:
@@ -90,10 +93,14 @@ public class Rocket : MonoBehaviour
     {
         if (GameObject.FindWithTag("Orb"))
         {
+            //do not allow advancing in the next scene
+            wayLight.intensity = 0;
             print("orbfound");
         }
         else
         {
+            //todo unlock advancing in the next scene
+            wayLight.intensity = 10;
             print("advance level activated");
         }
     }
@@ -114,7 +121,16 @@ public class Rocket : MonoBehaviour
         mainEngineParticles.Stop();
         audioSource.PlayOneShot(death);
         deathParticles.Play();
+        RocketShipDisappear();
         Invoke("LoadFirstLevel", levelLoadDelay);
+    }
+
+    private void RocketShipDisappear()
+    {
+        GameObject rocketShip = GameObject.Find("Rocket Ship");
+        rocketShip.transform.localScale = new Vector3(0, 0, 0); //make rocket invisible after touching wall or exploding
+        rocketShip.transform.Find("Rocket Light").gameObject.SetActive(false); //setting both of the light attached on rocket inactive while dying
+        rocketShip.transform.Find("Spot Light").gameObject.SetActive(false);
     }
 
     private void LoadFirstLevel()
