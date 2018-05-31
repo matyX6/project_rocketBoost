@@ -142,6 +142,19 @@ public class Rocket : MonoBehaviour
     private void LoadFirstLevel()
     {
         SceneManager.LoadScene(0);
+
+        if (GameObject.Find("RedLevelIdentificator"))
+        {
+            SceneManager.LoadScene("Level 1");
+        }
+        else if (GameObject.Find("BlueLevelIdentificator"))
+        {
+            SceneManager.LoadScene("Level 4");
+        }
+        else
+        {
+            //todo go to the first purple level
+        }
     }
 
     private void LoadNextLevel()
