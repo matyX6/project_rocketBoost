@@ -113,7 +113,7 @@ public class Rocket : MonoBehaviour
             isTransitioning = true;
             audioSource.Stop();
             mainEngineParticles.Stop();
-            transform.Find("Spot Light").gameObject.SetActive(false); //stop audio source, thrust and spot light on rocket, 3 coded lines above
+            //transform.Find("Spot Light").gameObject.SetActive(false); //stop audio source, thrust and spot light on rocket, 3 coded lines above
             audioSource.PlayOneShot(success);
             successParticles.Play();
             Invoke("LoadNextLevel", levelLoadDelay);

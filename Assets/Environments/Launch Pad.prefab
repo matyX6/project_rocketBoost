@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33976292927057756}
   - component: {fileID: 23296531234938034}
   - component: {fileID: 65087134519033688}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Launch Pad
   m_TagString: Friendly
   m_Icon: {fileID: 0}

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4196765652971022}
   - component: {fileID: 108393705010735714}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rocket Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4710269493708216}
   - component: {fileID: 108587517097082606}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4158210559104232}
   - component: {fileID: 198273695669656370}
   - component: {fileID: 199485367084455030}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rocket Jet Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 33651070841043924}
   - component: {fileID: 23782121724485678}
   - component: {fileID: 65705070059959218}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BoosterRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 33436231226625964}
   - component: {fileID: 23950223089470808}
   - component: {fileID: 135316148417484534}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: NoseCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 33880988535827226}
   - component: {fileID: 23666868340041882}
   - component: {fileID: 136447759930506664}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RocketBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 54513844387354678}
   - component: {fileID: 114232077890053710}
   - component: {fileID: 82101712484475986}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Rocket Ship
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 33977477100208606}
   - component: {fileID: 23868919753938420}
   - component: {fileID: 65829739550934344}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BoosterLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 4134381110394876}
   - component: {fileID: 198978399274948524}
   - component: {fileID: 199054225176335890}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Success Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 4876875202523766}
   - component: {fileID: 198325306838751800}
   - component: {fileID: 199888804770130272}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Explosion Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ Light:
   m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294961663
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

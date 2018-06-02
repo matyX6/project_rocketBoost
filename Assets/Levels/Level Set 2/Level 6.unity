@@ -201,6 +201,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -276,6 +280,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -351,6 +359,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -444,7 +456,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -567,6 +579,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -579,7 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374839683}
   - component: {fileID: 374839684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,6 +723,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -2.469
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -782,6 +802,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -1.411
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -849,6 +873,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -997,7 +1025,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1129,6 +1157,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1274,6 +1306,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1361,7 +1397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811737181}
   - component: {fileID: 811737182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1494,6 +1530,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1569,6 +1609,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1644,6 +1688,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1761,6 +1809,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 12.898001
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1841,6 +1893,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1916,6 +1972,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -1976,7 +2036,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2128,6 +2188,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -2163,7 +2227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137631306}
   - component: {fileID: 1137631307}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,6 +2355,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -2366,6 +2434,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -1.411
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -2440,6 +2512,10 @@ Prefab:
     - target: {fileID: 4800868529466140, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -2.171
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
@@ -2575,6 +2651,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -2596,7 +2676,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1308246082}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Terrain Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2704,7 +2784,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2831,6 +2911,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -2951,6 +3035,10 @@ Prefab:
     - target: {fileID: 4800868529466140, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 15.4210005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
@@ -3079,6 +3167,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 1.4740001
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3159,6 +3251,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3234,6 +3330,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3299,7 +3399,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3379,6 +3479,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3454,6 +3558,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3499,7 +3607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796387869}
   - component: {fileID: 1796387870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3632,6 +3740,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3712,6 +3824,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 12.534
       objectReference: {fileID: 0}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3724,7 +3840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960860645}
   - component: {fileID: 1960860646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,6 +3973,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0
@@ -3934,6 +4054,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e2bc4121bb86d2240ac9bc62f0954c47, type: 2}
+    - target: {fileID: 1946389723839670, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a44d2dab623d6ba438da3aefb6759356, type: 2}
   m_IsPrefabParent: 0

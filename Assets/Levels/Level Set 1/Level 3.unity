@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194380899}
   - component: {fileID: 194380900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 233861349}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Level Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307472524}
   - component: {fileID: 307472525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -614,7 +614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427341209}
   - component: {fileID: 427341210}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,7 +662,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -906,7 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557057127}
   - component: {fileID: 557057128}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1887,7 +1887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227754060}
   - component: {fileID: 1227754061}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1935,7 +1935,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1952,7 +1952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257095903}
   - component: {fileID: 1257095904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2000,7 +2000,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2210,7 +2210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445012919}
   - component: {fileID: 1445012920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2258,7 +2258,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -7452,7 +7452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1904918505}
   - component: {fileID: 1904918506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7500,7 +7500,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -7527,7 +7527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046340813}
   - component: {fileID: 2046340814}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7575,7 +7575,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294951935
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
