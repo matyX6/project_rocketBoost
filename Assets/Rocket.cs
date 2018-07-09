@@ -189,7 +189,7 @@ public class Rocket : MonoBehaviour
 
     private void ApplyThrust()
     {
-        rigidBody.AddRelativeForce(Vector3.up * mainThrust /* Time.deltaTime*/);
+        rigidBody.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
         if (!audioSource.isPlaying) //so it doesn't layer
         {
             audioSource.PlayOneShot(mainEngine);
@@ -202,11 +202,11 @@ public class Rocket : MonoBehaviour
         rigidBody.angularVelocity = Vector3.zero; //remove rotation due to physics
 
         float rotationThisFrame = rcsThrust * Time.deltaTime;
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.Rotate(-Vector3.forward * rotationThisFrame);
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Rotate(Vector3.forward * rotationThisFrame);
         }
