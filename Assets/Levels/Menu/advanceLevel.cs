@@ -7,7 +7,7 @@ public class advanceLevel : MonoBehaviour
 {
 	void Start ()
     {
-        Invoke("advanceToMainMenu", 5f);
+        Invoke("advanceToMainMenu", 3f);
 		
 	}
 

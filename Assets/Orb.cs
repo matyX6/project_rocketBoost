@@ -50,6 +50,8 @@ public class Orb : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            GameObject audio = GameObject.Find("OrbSound");
+            audio.GetComponent<AudioSource>().Play();
         }
     }
 }
